@@ -3,20 +3,29 @@
   height: 200px;
   border: 2px solid black;
   border-radius: 50%;
+  position: relative;
+}
+
+.clock-pointer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 20px;
+  transform-origin: left;
 }
 
 .clock-pointer-hours {
   border: 2px solid black;
   width: 25%;
-  border-radius: 20px;
+  transform: rotate(100deg);
 }
 .clock-pointer-minutes {
   border: 2px solid black;
   width: 50%;
-  border-radius: 20px;
+  transform: rotate(200deg);
 }
 .clock-pointer-seconds {
   border: 1px solid black;
   width: 50%;
-  border-radius: 20px;
+  transform: rotate(300deg);
 }
