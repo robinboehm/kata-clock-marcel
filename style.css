@@ -1,0 +1,22 @@
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.clock-pointer-hours {
+  border: 2px solid black;
+  width: 25%;
+  border-radius: 20px;
+}
+.clock-pointer-minutes {
+  border: 2px solid black;
+  width: 50%;
+  border-radius: 20px;
+}
+.clock-pointer-seconds {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 20px;
+}
